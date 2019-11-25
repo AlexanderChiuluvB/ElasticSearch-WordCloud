@@ -44,7 +44,7 @@ def searchByJson(index,body,scroll,size):
             print('empty')
             return None
         while scroll_size > 0:
-            res = es.scroll(scroll_id=scroll_id, scroll=scroll)
+            res = es.scroll(scroll_id=scroll_id, scroll='5s')
             scroll_id = res["_scroll_id"]
             scroll_size = len(res.get('hits').get('hits'))
             mdata += res.get("hits").get("hits")
@@ -58,7 +58,7 @@ def searchByJson(index,body,scroll,size):
 
 if __name__ == "__main__":
     # search("chicago*","year:2019 AND primary_type:THEFT")
-    searchByJson(index="chicago*",body=body,scroll="25m",size=10000)
+    searchByJson(index="chicago*",body=body,scroll="5m",size=10000)
 
 
 
