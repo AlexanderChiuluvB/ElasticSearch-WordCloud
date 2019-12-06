@@ -244,9 +244,22 @@ GET chicago_crime/crime/_search
 - 数据量不算特别大，差距不算特别明显，总数据量只有700W，每个分片占用内存大小大约为1G,与日常生产中分片大小10G~50G差距较大，因此性能提升不明显。
 - 由于搭建了集群，分片路由过程中涉及到不同主机的网络传输。因此网络带宽可能是ElasitcSearch搜索的重要瓶颈。
 
+
 ### 可视化分析——Demo应用
 
+#### 2001-2019各月度犯罪数量变化
 
+![2001-2019各月度犯罪数量变化](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/pic1.png?raw=true)
+
+#### 所有犯罪类型犯罪数量随时间变化
+
+![1](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%871.png?raw=true)
+
+![2](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%872.png?raw=true)
+
+#### 犯罪时间与犯罪类型关系图
+
+![3](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%873.png?raw=true)
 
 ### ref
 
