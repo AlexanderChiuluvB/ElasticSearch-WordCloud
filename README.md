@@ -261,6 +261,32 @@ GET chicago_crime/crime/_search
 
 ![3](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%873.png?raw=true)
 
+#### 犯罪地点与时间关系图
+![4](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%875.png?raw=true)
+
+#### 犯罪类型分布图
+![5](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%877.png?raw=true)
+
+#### 毒品犯罪地点分布
+![6](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%878.png?raw=true)
+
+#### 毒品类型分布
+![7](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%879.png?raw=true)
+
+#### 毒品犯罪月份分布
+
+![8](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%8710.png?raw=true)
+
+#### 毒品犯罪一天中时间分布
+![9](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%8711.png?raw=true)
+
+#### 犯罪数目与街区分布
+![10](https://github.com/AlexanderChiuluvB/ElasticSearch-WordCloud/blob/master/image/%E5%9B%BE%E7%89%8712.png?raw=true)
+
+
+
+
+#### 
 ### ref
 
 [FST原理介绍](<https://web.cs.ucdavis.edu/~rogaway/classes/120/spring13/eric-transducers.pdf>)
