@@ -133,7 +133,7 @@ Es通过增量编码压缩的技巧对posting list进行压缩，核心思想是
 在logstash中增加下列转化规则：
 
 ```yaml
-	if [latitude] and [longitude] {
+if [latitude] and [longitude] {
     mutate {
       add_field => {
         "coords" => ["%{longitude}", "%{latitude}"]
