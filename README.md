@@ -223,7 +223,7 @@ GET chicago_crime/crime/_search
                     "coords": {
                         "top_left": {
                             "lat": 41.8,
-                            "lon", -88
+                            "lon": -88
                         },
                         "bottom_right": {
                             "lat": 41.75,
